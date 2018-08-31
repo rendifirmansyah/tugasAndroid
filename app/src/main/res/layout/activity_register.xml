@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="26dp"
+        android:gravity="center"
+        android:padding="15px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            style="@style/EditText"
+            android:hint="EMAIL"
+            android:id="@+id/txtemail1"/>
+
+        <EditText
+            style="@style/EditText"
+            android:hint="PASSWORD"
+            android:id="@+id/txtpassword1"/>
+
+        <EditText
+            style="@style/EditText"
+            android:hint="CONFIRM PASSWORD"
+            android:id="@+id/txtconfirm1"/>
+
+        <EditText
+            style="@style/EditText"
+            android:hint="FULL NAME"
+            android:id="@+id/txtfullname1"/>
+
+        <EditText
+            style="@style/EditText"
+            android:hint="BIRTHDAY"
+            android:id="@+id/txtbday1"/>
+
+        <EditText
+            style="@style/EditText"
+            android:hint="PHONE"
+            android:id="@+id/txtphone1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sign Up"
+            android:textSize="20dp"
+            android:layout_margin="20px"/>
+    </LinearLayout>
+    
+</LinearLayout>
